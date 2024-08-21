@@ -6,6 +6,15 @@ import { animateWithGsap } from "../utils/animations"
 
 const Highlights = () => {
 
+  function exitSite(event, link) {
+    const userConfirmed = window.confirm("You are about to leave my page and will be redirected to the official Apple Website. Do you want to continue?");
+    if (!userConfirmed) {
+        event.preventDefault(); 
+    } else {
+        window.location.href = link;
+    }
+  }
+
     useGSAP(() => {
 
       animateWithGsap(('#title'), {opacity: 1, y: 0})
@@ -36,9 +45,9 @@ const Highlights = () => {
               Watch the film 
               <img src={watchImg} alt="watch" className="ml-2"/>
             </p>
-            <p className="link">
+            <p className="link" onClick={(event) =>{exitSite(event, "https://www.apple.com/apple-events/")}}>
               Watch the event 
-              <img src={rightImg} alt="right" className="ml-2"/>
+              <img src={rightImg} alt="right" className="ml-2" />
             </p>
           </div>
         </div>

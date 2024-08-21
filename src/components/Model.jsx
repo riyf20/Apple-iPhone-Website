@@ -51,7 +51,7 @@ const Model = () => {
 
     useGSAP(() => {
 
-        animateWithGsap('#heading', {y: 0, opacity: 1,})
+        animateWithGsap('#heading', {y: 0, opacity: 1, duration: 1})
 
     }, [])
 

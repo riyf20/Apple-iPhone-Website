@@ -9,7 +9,25 @@ import {
     yellowImg,
   } from "../utils";
   
-  export const navLists = ["Store", "Mac", "iPhone", "Support"];
+  export const navLists = [
+    {
+      name: "Store",
+      link: "https://www.apple.com/store"
+    }, 
+    {
+      name: "Mac",
+      link: "https://www.apple.com/mac"
+    }, 
+    {
+      name: "iPhone",
+      link: "https://www.apple.com/iphone"
+    }, 
+    {
+      name: "Support",
+      link: "https://www.apple.com/support"
+    }, 
+    
+  ]
   
   export const hightlightsSlides = [
     {
@@ -79,9 +97,25 @@ import {
   ];
   
   export const footerLinks = [
-    "Privacy Policy",
-    "Terms of Use",
-    "Sales Policy",
-    "Legal",
-    "Site Map",
-  ];
+    {
+      name: "Privacy Policy",
+      link: "https://www.apple.com/legal/privacy/"
+    }, 
+    {
+      name: "Terms of Use",
+      link: "https://www.apple.com/legal/internet-services/terms/site.html"
+    }, 
+    {
+      name: "Sales Policy",
+      link: "https://www.apple.com/us/shop/goto/help/sales_refunds"
+    }, 
+    {
+      name: "Legal",
+      link: "https://www.apple.com/legal/"
+    }, 
+    {
+      name: "Site Map",
+      link: "https://www.apple.com/sitemap/"
+    }
+  ]
+

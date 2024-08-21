@@ -3,8 +3,11 @@ import React, { useRef } from 'react'
 import { animateWithGsap } from '../utils/animations'
 import { explore1Img, explore2Img, exploreVideo } from '../utils'
 import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger';
+
 
 const Features = () => {
+    gsap.registerPlugin(ScrollTrigger);
 
     const videoRef = useRef();
 
@@ -53,7 +56,8 @@ const Features = () => {
                             className='w-full h-full object-cover object-center' 
                             preload='none'
                             muted
-                            autoPlay  
+                            autoPlay
+                            loop  
                             ref={videoRef}
                         >
                             <source src={exploreVideo} type='video/mp4' />
@@ -75,9 +79,9 @@ const Features = () => {
                             <p className='feature-text g_text'>
                                 iPhone 15 Pro is {' '}
                                 <span className='text-white'>
-                                the first iPhone to feature an aerospace-grade titanium deisng
+                                the first iPhone to feature an aerospace-grade titanium design
                                 </span>,
-                                using the same alloy that spacefracts use for missions to Mars.
+                                using the same alloy that spacecracts use for missions to Mars.
                             </p>
                             </div>
 
