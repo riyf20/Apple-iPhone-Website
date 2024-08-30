@@ -5,8 +5,6 @@ import { playImg, pauseImg, replayImg } from '../utils';
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-   
-
 const VideoCarousel = () => {
     gsap.registerPlugin(ScrollTrigger);
     

@@ -5,7 +5,6 @@ import gsap from 'gsap'
 import { animateWithGsap } from '../utils/animations'
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-
 const Chip = () => {
 
     gsap.registerPlugin(ScrollTrigger);

@@ -6,6 +6,7 @@ import * as Sentry from "@sentry/react"
 import Features from "./components/Features";
 import Chip from "./components/Chip";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Features/>
       <Chip/>
       <Footer/>
+      <Analytics />
     </main>
   )
 }

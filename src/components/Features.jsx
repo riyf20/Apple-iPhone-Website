@@ -5,7 +5,6 @@ import { explore1Img, explore2Img, exploreVideo } from '../utils'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-
 const Features = () => {
     gsap.registerPlugin(ScrollTrigger);
 
