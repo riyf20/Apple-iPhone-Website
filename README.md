@@ -21,7 +21,7 @@ This project utilizes a range of modern web technologies to achieve a high-perfo
 - Dynamic Content and Interactive Elements: Features interactive sections that respond to user input, such as scroll triggers, animated text, and hover effects.
 
 ## 📦 **Deployment**
-The website is planned for deployment soon! Stay tuned for the live version to be available:
+This project is live! You can explore the website here: https://rf-apple-website.vercel.app/
 
 ## 📧 **Contact**
 If you have any questions, suggestions, or just want to connect, feel free to reach out! 
